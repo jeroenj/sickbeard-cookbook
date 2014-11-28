@@ -9,6 +9,7 @@ web_root = ""
 web_username = <%= @username %>
 web_password = <%= @password %>
 anon_redirect = http://derefer.me/?
+display_all_seasons = 1
 use_api = 1
 api_key = <%= @api_key %>
 enable_https = 1
@@ -141,6 +142,9 @@ use_pushover = 0
 pushover_notify_onsnatch = 0
 pushover_notify_ondownload = 0
 pushover_userkey = ""
+pushover_priority = 0
+pushover_device = all
+pushover_sound = pushover
 [Libnotify]
 use_libnotify = 0
 libnotify_notify_onsnatch = 0
@@ -169,7 +173,7 @@ trakt_api = ""
 use_pytivo = 0
 pytivo_notify_onsnatch = 0
 pytivo_notify_ondownload = 0
-pyTivo_update_library = 0
+pytivo_update_library = 0
 pytivo_host = ""
 pytivo_share_name = ""
 pytivo_tivo_name = ""
@@ -184,6 +188,14 @@ use_pushalot = 0
 pushalot_notify_onsnatch = 0
 pushalot_notify_ondownload = 0
 pushalot_authorizationtoken = ""
+pushalot_silent = 0
+pushalot_important = 0
+[Pushbullet]
+use_pushbullet = 0
+pushbullet_notify_onsnatch = 0
+pushbullet_notify_ondownload = 0
+pushbullet_access_token = ""
+pushbullet_device_iden = ""
 [Newznab]
 newznab_data = "<%= @newznab_data %>"
 [GUI]
