@@ -3,7 +3,7 @@ maintainer        'Jeroen Jacobs'
 maintainer_email  'chef@jeroenj.be'
 license           'MIT'
 description       'Installs Sick Beard.'
-version           '1.0.2'
+version           '1.0.3'
 
 depends           'git'
 depends           'python'
