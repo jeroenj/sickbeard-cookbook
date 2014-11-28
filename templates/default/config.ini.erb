@@ -12,7 +12,7 @@ anon_redirect = http://derefer.me/?
 display_all_seasons = 1
 use_api = 1
 api_key = <%= @api_key %>
-enable_https = 1
+enable_https = <%= @https_cert != '' && @https_key != '' ? 1 : 0 %>
 https_cert = <%= @https_cert %>
 https_key = <%= @https_key %>
 use_nzbs = 1
