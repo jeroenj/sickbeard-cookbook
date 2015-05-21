@@ -50,6 +50,7 @@ template ::File.join(node[:sickbeard][:config_dir], 'config.ini') do
     nzbs_hash: node[:sickbeard][:settings][:nzbs_hash],
     nzbsrus_uid: node[:sickbeard][:settings][:nzbsrus_uid],
     nzbsrus_hash: node[:sickbeard][:settings][:nzbsrus_hash],
+    quality_default: node[:sickbeard][:settings][:quality_default],
     sab_username: node[:sickbeard][:settings][:sab_username],
     sab_password: node[:sickbeard][:settings][:sab_password],
     sab_apikey: node[:sickbeard][:settings][:sab_apikey],

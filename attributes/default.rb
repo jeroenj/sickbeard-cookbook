@@ -18,6 +18,7 @@ default[:sickbeard][:settings] = {
   directory: default[:sickbeard][:data_dir],
   nzbs_uid: 0,
   nzbs_hash: 'hash',
+  quality_default: 480,
   sab_username: 'sab',
   sab_password: 'sab',
   sab_apikey: 'sab',
