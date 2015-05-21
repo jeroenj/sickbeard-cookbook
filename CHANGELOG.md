@@ -3,6 +3,10 @@ sickbeard cookbook CHANGELOG
 
 This file is used to list changes made in each version of the sickbeard cookbook.
 
+1.0.4
+-----
+* Makes quality_default setting configurable
+
 1.0.3
 -----
 * Correctly set empty values for ssl certificate and key
